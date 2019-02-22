@@ -4,5 +4,11 @@ end
 
 def using_unshift(array, string)
   array.unshift(string)
+  array.size
+end 
+
+def using_pop(array)
+  array.pop 
+  array.size
 end 
 
