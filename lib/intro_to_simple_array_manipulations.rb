@@ -12,3 +12,8 @@ def using_pop(array)
   array.size
 end 
 
+def using_shift(array)
+  array.shift
+  array.size 
+end 
+
