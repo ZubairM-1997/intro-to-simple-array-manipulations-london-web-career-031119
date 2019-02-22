@@ -1,14 +1,8 @@
-#Adding element to end of array
+def using_push(array, string)
+  array.push(string)
+end
 
-cars = ["volkswagen", "BMW", "Toyota", "Mercedes", "Ford"]
-next_car = "Aston Martin"
-cars.push(next_car)
+def using_unshift(array, string)
+  array.unshift(string)
+end 
 
-
-
-#removing element from end of array
-
-phone_companies = ["Samsung", "Apple","Microsoft", "Sony", "OnePlus" ]
-phone_companies.pop 
-
-phone_companies
